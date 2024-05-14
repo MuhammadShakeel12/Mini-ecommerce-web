@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Catagory from './catagory';
 import axios from 'axios';
