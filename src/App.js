@@ -76,7 +76,7 @@ function Prductitems({pitems}){
   return(
     <div className='grid grid-cols-3 gap-4'>
       <div className='shadow-lg text-center p-4 font-medium'>
-        <img src={pitems.thumbnail} className=' w-[700]'/>
+        <img src={pitems.thumbnail} alt='product' className=' w-[700]'/>
           <h3>{pitems.title}</h3>
             <p>Rs {pitems.price}</p>
       </div>
