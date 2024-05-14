@@ -56,7 +56,7 @@ useEffect(()=>{
           <div>
             <Catagory finalcat={finalcat} setCatname={setCatname}/>
           </div>
-          <div className='grid grid-cols-3 gap-4 w-[100%] h-96'>
+          <div className='grid grid-cols-3 gap-4 w-[100%]'>
             {pitems}
           </div>
         </div>
